@@ -14,7 +14,7 @@ const Meme = () => {
           <input type='text' placeholder='shut up' className='form--input' />
           <input type='text' placeholder='Take Money' className='form--input' />
         <button className='form--button' onClick={handleOnClick}>
-          Get a new meme image
+          Get a new meme images
             
           </button>
       </form>
