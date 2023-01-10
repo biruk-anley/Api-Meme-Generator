@@ -2,7 +2,7 @@ import React from 'react'
 
 import memesData from '../memesData'
 const Meme = () => {
- const [memeImage, setMemeImage] = React.useState("")
+ const [memeImage, setMemeImage] = React.useState("https://i.imgflip.com/30b1gx.jpg")
 
   const handleOnClick = () => {
         const memesArray = memesData.data.memes
