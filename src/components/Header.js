@@ -1,6 +1,7 @@
 import React from 'react'
 import memeIcon from '../images/meme2.png'
 const Header=()=> {
+  
   return (
       <div className='header'>
           <img src={ memeIcon} className="header--image" />
