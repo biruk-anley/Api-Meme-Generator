@@ -31,6 +31,7 @@ export default function Meme() {
         setMeme(prevMeme => ({
             ...prevMeme,
             [name]: value
+            
         }))
     }
     
