@@ -6,6 +6,7 @@ export default function App() {
     //console.log(starWarsData)---this statement makes a component to be renderd many times
     // and that is why we use side effect called useEffect
     
+    
     fetch("https://swapi.dev/api/people/1")
         .then(res => res.json())
         .then(data => setStarWarsData(data))
